@@ -1,3 +1,13 @@
+#instalação do java
+
+import subprocess
+
+# Atualiza os pacotes do sistema
+subprocess.run(['sudo', 'apt', 'update'], check=True)
+
+# Instala o OpenJDK 17
+subprocess.run(['sudo', 'apt', 'install', '-y', 'openjdk-17-jdk'], check=True)
+
 #Criação de um site capaz de realizar correções textuais:
 
 #Imports
