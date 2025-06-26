@@ -6,6 +6,12 @@
 import streamlit as st 
 import language_tool_python
 
+#configurações da pagina
+st.set_page_config(
+    page_title="Correção de texto",
+    page_icon=":page_with_curl:",
+    layout="centered"
+                   )
 #as variaveis
 place_h = "texti"
 
